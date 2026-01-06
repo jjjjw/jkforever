@@ -1,0 +1,87 @@
+/* Base styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "EB Garamond", serif;
+  box-sizing: border-box;
+}
+
+.home {
+  font-size: 2rem;
+}
+
+/* Home page specific */
+html:has(body.home),
+body.home {
+  height: 100%;
+  overflow: hidden;
+}
+
+body.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-text {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-link {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+/* Itinerary page specific */
+body.itinerary {
+  font-size: 1.5rem;
+}
+
+.itinerary-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.itinerary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  width: 250px;
+}
+
+.event div {
+  margin-bottom: 0.2rem;
+}
+
+.event-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.event-details {
+  color: #333;
+}
+
+.event-attire {
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
