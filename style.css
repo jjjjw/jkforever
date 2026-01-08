@@ -31,8 +31,11 @@ body.home {
   margin-bottom: 1.5rem;
 }
 
-.home-link {
+.home-links {
   margin-top: 1.5rem;
+}
+
+.home-link {
   display: block;
 }
 
@@ -84,4 +87,35 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Us page specific */
+body.us {
+  font-size: 1.5rem;
+}
+
+.us-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.us-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.us-photo {
+  max-width: 100%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.back {
+  display: block;
+  text-align: center;
 }
