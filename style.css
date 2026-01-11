@@ -119,3 +119,35 @@ body.us {
   display: block;
   text-align: center;
 }
+
+/* Them page specific */
+body.them {
+  font-size: 1.5rem;
+}
+
+.them-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.them-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.them-photo {
+  max-width: 100%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.them-caption {
+  text-align: center;
+}
