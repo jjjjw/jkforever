@@ -2,5 +2,12 @@
   "buildCommand": "",
   "outputDirectory": ".",
   "framework": null,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/rsvp",
+      "destination": "https://forms.gle/Hj1afJNQmzS6GATP7",
+      "permanent": false
+    }
+  ]
 }
