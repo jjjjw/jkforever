@@ -247,3 +247,54 @@ body.registry {
 .registry-link {
   display: block;
 }
+
+/* Vows page specific */
+body.vows {
+  font-size: 1.5rem;
+}
+
+.vows-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.vows-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.vows-section {
+  text-align: left;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.vows-section-title {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.vows-block {
+  margin-bottom: 1.5rem;
+}
+
+.vows-speaker {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.vows-text p {
+  margin: 0 0 0.75rem 0;
+}
+
+.vows-text p:last-child {
+  margin-bottom: 0;
+}
